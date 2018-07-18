@@ -6,8 +6,8 @@ HousePrice = 500000         #Value of the house to be purchased
 Deposit = 100000            #Initial downpayment for the mortgage
 InterestRate = 0.036        #Annual interest rate on the Mortgage
 Duration = 25               #Number of years of the mortgage contract
-HouseMarketRate = 0.085     #Expected average house price index growth rate / UK Average is 8.5% for over 40 years
-InvestmentRate = 0.095      #Expected average investment growth rate / S&P500 Index average is 9.50% for over 70 years
+HouseMarketRate = 0.0745      #Expected average house price index growth rate / UK Average is 7.45% for London Flats between '91 - '14
+InvestmentRate = 0.1185      #Expected average investment growth rate / S&P500 Index average is 11.85% between '70 and 2017
 
 #Performing basic calculations based on the given parameters
 MortgageValue = HousePrice - Deposit                        #Mortgage contract value
